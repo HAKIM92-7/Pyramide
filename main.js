@@ -35,7 +35,7 @@ const pyramid = n =>                  /*fonction qui construit le pyramide et l'
 
          if (j >= n-i+1 && j <= (n-1)+i) {string+='#';} else {string+=' ';}}
 
-         console.log(n+i);
+         console.log(n+i-1);
          
     
         console.log(string);  
