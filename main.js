@@ -29,10 +29,13 @@ const pyramid = n =>                  /*fonction qui construit le pyramide et l'
 
 
         let string= '';
+        let diff= n*10-6;
      
         for (let j =1; j<=2*n-1; j++) { 
 
-         if (j >= n-i+1 && j <= (n + i)-46) {string+='#';} else {string+=' ';}}
+         if (j >= n-i+1 && j <= (n-1)+i) {string+='#';} else {string+=' ';}}
+
+         console.log(n+i);
          
     
         console.log(string);  
